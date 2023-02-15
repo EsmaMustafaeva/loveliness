@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Loveliness | Reviews</title>
+    <link rel="shortcut icon" href="../assets/icons/head.png" type="image/png">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <p class="header__logo">LOVELINESS</p>
+            <nav>
+                <ul>
+                    <li><a class="header-nav__home" href="../index.html">Home</a></li>
+                    <li><a href="../HTML/about.html">About us</a></li>
+                    <li>
+                        <div class="dropdown">
+                        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Catalog
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item header-nav__button--catalog" href="earrings.html">Earrings</a></li>
+                            <li><a class="dropdown-item header-nav__button--catalog" href="necklaces.html">Necklaces</a></li>
+                            <li><a class="dropdown-item header-nav__button--catalog" href="bracelets.html">Bracelets</a></li>
+                            <li><a class="dropdown-item header-nav__button--catalog" href="rings.html">Rings</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+            </nav>
+            <hr>
+        </div>
+    </header>
+    <main>
+        <section class="section-reviews">
+            <div class="container">
+                <p>Read it before you buy</p>
+                <h2>Reviews</h2>
+                <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="10000">
+                        <div class="review-wrapper">
+                            <div class="img-wrapper">
+                                <img src="../assets/icons/reviews1.png" alt="иконка профиля">
+                            </div>
+                            <div class="review-text__wrapper">
+                                <h3 class="section-reviews__name">Helen Williams</h3>
+                                <h3 class="section-reviews__text">I ordered a ring and earrings as a set. Everything came quickly, without delay. Packed neatly, high quality goods</h3>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <div class="review-wrapper">
+                            <div class="img-wrapper">
+                                <img src="../assets/icons/reviews2.png" alt="иконка профиля">
+                            </div>
+                            <div class="review-text__wrapper">
+                                <h3 class="section-reviews__name">Linda Gray</h3>
+                                <h3 class="section-reviews__text">For a long time I doubted which necklace to choose, because each piece of jewelry is so beautiful. I used an online consultation and they helped me make a choice, the communication was friendly. I am looking forward to my order</h3>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="review-wrapper">
+                            <div class="img-wrapper">
+                                <img src="../assets/icons/reviews3.png" alt="иконка профиля">
+                            </div>
+                            <div class="review-text__wrapper">
+                                <h3 class="section-reviews__name">Melissa James</h3>
+                                <h3 class="section-reviews__text">I received my order yesterday! Beautiful earrings, made very high quality. I already have a ring from this store, I am very happy with it</h3>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="section-contacts">
+            <div class="container">
+                <div class="contacts-wrapper">
+                    <h2 class="section-contacts__title">Leave your feedback</h2>
+                    <form>
+                        <input type="text" placeholder="Your name" required>
+                        <input type="email" placeholder="Your email">
+                        <textarea placeholder="Your message" required></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="info-wrapper">
+                    <p class="footer-logo">LOVELINESS</p>
+                    <div class="links-wrapper">
+                        <a class="footer-link" href="https://instagram.com"><img src="../assets/icons/instagram.png" alt="инстаграмм"></a>
+                        <a class="footer-link" href="https://m.facebook.com"><img src="../assets/icons/facebook.png" alt="фейсбук"></a>
+                        <a class="footer-link" href="https://telegram.org/"><img src="../assets/icons/telegram.png" alt="телеграм"></a>
+                    </div>
+                    <div class="subtitle-wrapper">
+                        <p class="footer-text__subtitle">Site made for educational purposes</p>
+                        <p class="footer-text__subtitle">All images are taken from mie.ru</p>
+                    </div>
+                </div>
+                <div class="shop-wrapper">
+                    <p class="footer-title">Shop here</p>
+                    <p><a href="earrings.html">Earrings</a></p>
+                    <p><a href="necklaces.html">Necklaces</a></p>
+                    <p><a href="bracelets.html">Bracelets</a></p>
+                    <p><a href="rings.html">Rings</a></p>
+                </div>
+                <div class="legals-wrapper">
+                    <p class="footer-title">The legals</p>
+                    <p><a href="">Privacy</a></p>
+                    <p><a href="contacts.html">Contact</a></p>
+                    <p><a href="">Terms</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="../JS/script.js"></script>
+</body>
+</html>
